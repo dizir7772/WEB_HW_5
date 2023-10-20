@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "web-hw-5"
+version = "0.1.0"
+description = ""
+authors = ["Vyacheslav Artemenko <v.a.artemenko1990@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+websockets = "^11.0.3"
+names = "^0.3.0"
+aiohttp = "^3.8.6"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
